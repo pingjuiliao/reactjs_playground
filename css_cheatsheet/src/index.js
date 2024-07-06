@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import FlexCheatsheet from './flexCheatsheet/flexCheatsheet';
+import GridCheatsheet from './gridCheatsheet/gridCheatsheet';
 import {
   createBrowserRouter,
   RouterProvider
@@ -15,7 +17,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/flex_cheatsheet",
-    element: <div>Bye world!</div>
+    element: <FlexCheatsheet />
+  },
+  {
+    path: "/grid_cheatsheet",
+    element: <GridCheatsheet />
   }
 ])
 

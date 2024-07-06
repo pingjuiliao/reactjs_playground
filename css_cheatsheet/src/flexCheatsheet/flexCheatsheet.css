@@ -1,0 +1,45 @@
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+
+  list-style: none;
+  margin: 0;
+  background: deepskyblue;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+.navigation a:hover {
+  background: #1565C0;
+
+}
+
+
+.chart {
+  display: flex;
+  flex-flow: row;
+  flex-direction: row-reverse;
+  flex-grow: 24;
+  gap: 10px;
+  align-items: flex-end;
+  
+  max-width: 50%;
+  height: 300px;
+  margin: auto;
+  background-color: lightgreen;
+  margin-top: 10px;
+}
+
+.chart div {
+  flex-grow: 3;
+}
+
+.container-flex-default {
+  display: flex;
+}
